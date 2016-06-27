@@ -1,5 +1,9 @@
-Project: Embedding Images and Video (with YouTube)
-==================================================
+Youtube Video Player Page
+=========================
+
+This is an exercise for TheOdinProject.
+The goal is to recreate the Youtube video player page (with the video embedded),
+in HTML and CSS.
 
 ##Exercise guidelines
 
