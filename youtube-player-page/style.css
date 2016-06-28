@@ -1,3 +1,47 @@
+/* ---- GLOBAL ---- */
 body {
+    margin:0;
+    padding:0;
+    background-color: #f1f1f1;
+    min-width: 995px;
     font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+}
+
+/* ---- NAV ---- */
+header {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    text-align: right;
+}
+
+header div,
+header a {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.alert {
+    margin-left: 4px;
+    font-size: 0.9em;
+}
+
+.alert .fa-bell {
+    font-size: 0.9em;
+}
+
+.alert:hover {
+    color: #000;
+}
+
+.user {
+    width: 32px;
+    height: auto;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-left: 12px;
 }
