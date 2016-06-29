@@ -1,11 +1,19 @@
 /* ---- GLOBAL ---- */
 body {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     background-color: #f1f1f1;
-    min-width: 995px;
+    min-width: 1080px;
     font-family: 'Roboto', sans-serif;
     font-size: 11px;
+}
+
+a {
+    color: #b7b7b7;
+}
+
+a:hover {
+    color: #666;
 }
 
 /* ---- NAV ---- */
@@ -19,22 +27,28 @@ header {
     border-bottom: 1px solid #e8e8e8;
 }
 
+header div {
+    display: inline-block;
+    margin-right: 15px;
+}
+
 .nav-left {
+    padding-left: 20px;
     float: left;
 }
 
-.yt-logo {
-    width: 60px;
+.menu-icon {
     vertical-align: middle;
+}
+
+.yt-logo {
+    width: 65px;
+    vertical-align: middle;
+    margin-right: 70px;
 }
 
 .nav-right {
     float: right;
-}
-
-header div {
-    display: inline-block;
-    margin-right: 15px;
 }
 
 .user {
@@ -43,4 +57,69 @@ header div {
     border-radius: 50%;
     vertical-align: middle;
     margin-left: 12px;
+}
+
+/* SEARCH BAR */
+.searchbar {
+    width: 580px;
+    height: 30px;
+    vertical-align: middle;
+            box-sizing: border-box;
+       -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-left: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+
+            box-shadow: inset 0 1px 2px #eee;
+       -moz-box-shadow: inset 0 1px 2px #eee;
+    -webkit-box-shadow: inset 0 1px 2px #eee;
+    overflow: auto;
+}
+
+.searchbar:hover {
+    border: 1px solid #b9b9b9;
+    border-top-color: #a0a0a0;
+            box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+       -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.searchbar:focus {
+    outline: none;
+    border: 1px solid #1c62b9;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.search-button {
+    margin: 0;
+    border-radius: 0 2px 2px 0;
+}
+
+.upload-button {
+    border-radius: 2px;
+    margin-right: 6px;
+}
+
+.notification {
+    margin: 0 10px;
+}
+
+/* BUTTONS */
+button {
+    color: #757575;
+    font-weight: bold;
+    font-size: 1em;
+    width: 60px;
+    height: 30px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #000;
+    border: 1px solid #b9b9b9;
+    border-top-color: #a0a0a0;
 }
