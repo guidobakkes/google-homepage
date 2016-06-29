@@ -6,21 +6,37 @@
         <title>title</title>
 
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet" type="text/css">
-        <link rel="shortcut icon" type="image/x-icon" href="img/favicon-youtube.png"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500" type="text/css" />
+        <link rel="shortcut icon" href="img/favicon-youtube.png" type="image/x-icon" />
 
 
     </head>
 
     <body>
         <header>
+
+            <div class="nav-left">
+                <div>
+                    <i class="fa fa-bars"></i>
+                </div>
+                <div>
+                    <img src="img/youtube-logo.png" alt="Youtube logo" class="yt-logo">
+                </div>
+                <div>
+                    <input type="text" placeholder="Search"/>
+                </div>
+            </div>
+
+            <div class="nav-right">
                 <button type="#">Upload</button>
                 <i class="fa fa-bell-o" aria-hidden="true"></i>
                 <div>
                     <img src="img/profile.jpg" alt="User Profile Picture"
                         class="user">
                 </div>
+            </div>
+
         </header>
         <div class="video-player"></div>
         <div class="video-info"></div>
