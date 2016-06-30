@@ -123,3 +123,24 @@ button:hover {
     border: 1px solid #b9b9b9;
     border-top-color: #a0a0a0;
 }
+
+/* CONTENT */
+.content {
+    margin: 0 auto;
+    padding: 0 110px;
+    min-width: 1060px;
+}
+
+.video-player {
+    margin: 10px 0 10px 0;
+    display: inline-block;
+    float: left;
+}
+
+.sidebar {
+    border: 1px solid black;
+    display: inline-block;
+    width: 410px;
+    float: right;
+    margin-top: 10px;
+}
