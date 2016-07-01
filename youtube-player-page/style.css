@@ -1,4 +1,7 @@
+/* ---------------- */
 /* ---- GLOBAL ---- */
+/* ---------------- */
+
 body {
     margin: 0;
     padding: 0;
@@ -16,7 +19,15 @@ a:hover {
     color: #666;
 }
 
+p {
+    padding: 0;
+    margin: 0;
+}
+
+/* ------------- */
 /* ---- NAV ---- */
+/* ------------- */
+
 header {
     position: fixed;
     margin: 0;
@@ -26,7 +37,7 @@ header {
     height: 50px;
     background-color: #fff;
     border-bottom: 1px solid #e8e8e8;
-    min-width: 1060px;
+    min-width: 1080px;
 }
 
 header div {
@@ -60,8 +71,10 @@ header div {
     vertical-align: middle;
     margin-left: 12px;
 }
+/* -------------------- */
+/* ---- SEARCH BAR ---- */
+/* -------------------- */
 
-/* SEARCH BAR */
 .searchbar {
     width: 580px;
     height: 30px;
@@ -108,8 +121,10 @@ header div {
 .notification {
     margin: 0 10px;
 }
+/* ----------------- */
+/* ---- BUTTONS ---- */
+/* ----------------- */
 
-/* BUTTONS */
 button {
     color: #757575;
     font-weight: bold;
@@ -128,10 +143,12 @@ button:hover {
     border-top-color: #a0a0a0;
 }
 
-/* CONTENT */
+/* ----------------- */
+/* ---- CONTENT ---- */
+/* ----------------- */
+
 .content {
     margin: 0 auto;
-    padding: 0 110px;
     max-width: 1060px;
 }
 
@@ -141,42 +158,47 @@ button:hover {
     float: left;
 }
 
-/* SIDEBAR */
+/* ----------------- */
+/* ---- SIDEBAR ---- */
+/* ----------------- */
+
 .sidebar {
     display: inline-block;
     width: 410px;
-    height: 2000px;
+    height: auto;
     box-sizing: border-box;
     float: right;
-    margin-top: 60px;
-    padding: 0 10px 10px 12px;
+    margin-top: 45px;
+    padding: 0 10px 10px 15px;
     background-color: #fff;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
 .next {
-    font-size: 13px;
-    font-weight: 500;
     border-bottom: 1px solid #e2e2e2;
     padding-bottom: 10px;
+    font-size: 13px;
+}
+
+.related {
+    margin-top: 15px;
+}
+
+.related-video {
+    margin-bottom: 15px;
 }
 
 .thumbnail {
     width: 120px;
+    float: left;
+    margin-right: 8px;
 }
 
-.thumb-wrap {
-    display: inline-block;
-}
-
-.desc-wrap {
+.thumb-title {
     font-size: 13px;
     font-weight: 500;
-    margin-left: 133px;
-    display: inline-block;
+    padding-bottom: 1px;
+}
+
+.thumb-info {
+    color: #777;
 }
