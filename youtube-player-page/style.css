@@ -18,6 +18,7 @@ a:hover {
 
 /* ---- NAV ---- */
 header {
+    position: fixed;
     margin: 0;
     padding: 10px;
     box-sizing: border-box;
@@ -25,6 +26,7 @@ header {
     height: 50px;
     background-color: #fff;
     border-bottom: 1px solid #e8e8e8;
+    min-width: 1060px;
 }
 
 header div {
@@ -94,6 +96,8 @@ header div {
 .search-button {
     margin: 0;
     border-radius: 0 2px 2px 0;
+    position: relative;
+    left: -4px;
 }
 
 .upload-button {
@@ -128,11 +132,11 @@ button:hover {
 .content {
     margin: 0 auto;
     padding: 0 110px;
-    min-width: 1060px;
+    max-width: 1060px;
 }
 
 .video-player {
-    margin: 10px 0 10px 0;
+    margin: 60px 0 10px 0;
     display: inline-block;
     float: left;
 }
@@ -144,9 +148,15 @@ button:hover {
     height: 2000px;
     box-sizing: border-box;
     float: right;
-    margin-top: 10px;
+    margin-top: 60px;
     padding: 0 10px 10px 12px;
     background-color: #fff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .next {
@@ -158,11 +168,15 @@ button:hover {
 
 .thumbnail {
     width: 120px;
+}
+
+.thumb-wrap {
     display: inline-block;
 }
 
-.thumb-title {
+.desc-wrap {
     font-size: 13px;
     font-weight: 500;
+    margin-left: 133px;
     display: inline-block;
 }
