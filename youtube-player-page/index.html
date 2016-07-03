@@ -1,31 +1,99 @@
 <!DOCTYPE html>
 <html>
-    <head>
 
-        <meta charset="UTF-8">
-        <title>title</title>
+<head>
 
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet" type="text/css">
-        <link rel="shortcut icon" type="image/x-icon" href="img/favicon-youtube.png"/>
+    <meta charset="UTF-8">
+    <title>Jawbreaker - Accident Prone</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500" type="text/css" />
+    <link rel="shortcut icon" href="img/favicon-youtube.png" type="image/x-icon" />
 
 
-    </head>
+</head>
 
-    <body>
-        <header>
-                <button type="#">Upload</button>
-                <i class="fa fa-bell-o" aria-hidden="true"></i>
-                <div>
-                    <img src="img/profile.jpg" alt="User Profile Picture"
-                        class="user">
+<body>
+    <header>
+
+        <div class="nav-left">
+            <div>
+                <a href="#">
+                    <i class="fa fa-bars menu-icon"></i>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="img/youtube-logo.png" alt="Youtube logo" class="yt-logo">
+                </a>
+            </div>
+            <div>
+                <input type="text" class="searchbar" placeholder="Search" />
+                <button class="search-button">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="nav-right">
+            <button type="#" class="upload-button">Upload</button>
+            <i class="fa fa-bell-o notification"></i>
+            <div>
+                <img src="img/profile.jpg" alt="User Profile Picture" class="user">
+            </div>
+        </div>
+
+    </header>
+
+    <section class="content">
+        <div class="video-player">
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/T4BlLskdYtg" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="sidebar">
+            <div class="next">
+                <h4>Up next</h4>
+                    <img src="img/nothing1.png" alt="Nothing video" class="thumbnail">
+                    <p class="thumb-title">NOTHING - "Tired of Tomorrow" Documentary Episode 1</p>
+                    <p class="thumb-info">RelapseRecords</p>
+                    <p class="thumb-info">12,536 views</p>
+            </div>
+            <div class="related">
+                <div class="related-video">
+                    <img src="img/nothing1.png" alt="Nothing video" class="thumbnail">
+                    <p class="thumb-title">NOTHING - "Tired of Tomorrow" Documentary Episode 1</p>
+                    <p class="thumb-info">RelapseRecords</p>
+                    <p class="thumb-info">12,536 views</p>
                 </div>
-        </header>
-        <div class="video-player"></div>
-        <div class="video-info"></div>
-        <div class="sidebar"></div>
+                <div class="related-video">
+                    <img src="img/nothing1.png" alt="Nothing video" class="thumbnail">
+                    <p class="thumb-title">NOTHING - "Tired of Tomorrow" Documentary Episode 1</p>
+                    <p class="thumb-info">RelapseRecords</p>
+                    <p class="thumb-info">12,536 views</p>
+                </div>
+                <div class="related-video">
+                    <img src="img/nothing1.png" alt="Nothing video" class="thumbnail">
+                    <p class="thumb-title">NOTHING - "Tired of Tomorrow" Documentary Episode 1</p>
+                    <p class="thumb-info">RelapseRecords</p>
+                    <p class="thumb-info">12,536 views</p>
+                </div>
+                <div class="related-video">
+                    <img src="img/nothing1.png" alt="Nothing video" class="thumbnail">
+                    <p class="thumb-title">NOTHING - "Tired of Tomorrow" Documentary Episode 1</p>
+                    <p class="thumb-info">RelapseRecords</p>
+                    <p class="thumb-info">12,536 views</p>
+                </div>
+                <div class="related-video">
+                    <img src="img/nothing1.png" alt="Nothing video" class="thumbnail">
+                    <p class="thumb-title">NOTHING - "Tired of Tomorrow" Documentary Episode 1</p>
+                    <p class="thumb-info">RelapseRecords</p>
+                    <p class="thumb-info">12,536 views</p>
+                </div>
+            </div>
+        </div>
         <div class="comments"></div>
-        <div class="footer"></div>
-    </body>
+    </section>
+    <div class="footer"></div>
+</body>
+
 </html>

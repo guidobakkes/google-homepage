@@ -1,47 +1,204 @@
+/* ---------------- */
 /* ---- GLOBAL ---- */
+/* ---------------- */
+
 body {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     background-color: #f1f1f1;
-    min-width: 995px;
+    min-width: 1080px;
     font-family: 'Roboto', sans-serif;
     font-size: 11px;
 }
 
+a {
+    color: #b7b7b7;
+}
+
+a:hover {
+    color: #666;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+/* ------------- */
 /* ---- NAV ---- */
+/* ------------- */
+
 header {
+    position: fixed;
     margin: 0;
     padding: 10px;
     box-sizing: border-box;
     width: 100%;
     height: 50px;
     background-color: #fff;
-    text-align: right;
+    border-bottom: 1px solid #e8e8e8;
+    min-width: 1080px;
 }
 
-header div,
-header a {
+header div {
     display: inline-block;
     margin-right: 15px;
 }
 
-.alert {
-    margin-left: 4px;
-    font-size: 0.9em;
+.nav-left {
+    padding-left: 20px;
+    float: left;
 }
 
-.alert .fa-bell {
-    font-size: 0.9em;
+.menu-icon {
+    vertical-align: middle;
 }
 
-.alert:hover {
-    color: #000;
+.yt-logo {
+    width: 65px;
+    vertical-align: middle;
+    margin-right: 70px;
+}
+
+.nav-right {
+    float: right;
 }
 
 .user {
-    width: 32px;
+    width: 27px;
     height: auto;
     border-radius: 50%;
     vertical-align: middle;
     margin-left: 12px;
+}
+/* -------------------- */
+/* ---- SEARCH BAR ---- */
+/* -------------------- */
+
+.searchbar {
+    width: 580px;
+    height: 30px;
+    vertical-align: middle;
+            box-sizing: border-box;
+       -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-left: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+
+            box-shadow: inset 0 1px 2px #eee;
+       -moz-box-shadow: inset 0 1px 2px #eee;
+    -webkit-box-shadow: inset 0 1px 2px #eee;
+    overflow: auto;
+}
+
+.searchbar:hover {
+    border: 1px solid #b9b9b9;
+    border-top-color: #a0a0a0;
+            box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+       -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.searchbar:focus {
+    outline: none;
+    border: 1px solid #1c62b9;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.search-button {
+    margin: 0;
+    border-radius: 0 2px 2px 0;
+    position: relative;
+    left: -4px;
+}
+
+.upload-button {
+    border-radius: 2px;
+    margin-right: 6px;
+}
+
+.notification {
+    margin: 0 10px;
+}
+/* ----------------- */
+/* ---- BUTTONS ---- */
+/* ----------------- */
+
+button {
+    color: #757575;
+    font-weight: bold;
+    font-size: 1em;
+    width: 60px;
+    height: 30px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #000;
+    border: 1px solid #b9b9b9;
+    border-top-color: #a0a0a0;
+}
+
+/* ----------------- */
+/* ---- CONTENT ---- */
+/* ----------------- */
+
+.content {
+    margin: 0 auto;
+    max-width: 1060px;
+}
+
+.video-player {
+    margin: 60px 0 10px 0;
+    display: inline-block;
+    float: left;
+}
+
+/* ----------------- */
+/* ---- SIDEBAR ---- */
+/* ----------------- */
+
+.sidebar {
+    display: inline-block;
+    width: 410px;
+    height: auto;
+    box-sizing: border-box;
+    float: right;
+    margin-top: 60px;
+    padding: 0 10px 10px 15px;
+    background-color: #fff;
+}
+
+.next {
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+.related {
+    margin-top: 15px;
+}
+
+.related-video {
+    margin-bottom: 15px;
+}
+
+.thumbnail {
+    width: 120px;
+    float: left;
+    margin-right: 8px;
+}
+
+.thumb-title {
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: 1px;
+}
+
+.thumb-info {
+    color: #777;
 }
