@@ -95,7 +95,8 @@ button:active {
 /* -- CSS FIGURES -- */
 /* ----------------- */
 
-.circle {
+.circle,
+.square {
     width: 100px;
     height: 100px;
     margin-right: 50px;
@@ -106,12 +107,8 @@ button:active {
 }
 
 .square {
-    width: 100px;
-    height: 100px;
-    margin-right: 50px;
     border: 1px solid #ffd194;
-    display: inline-block;
-    float: left;
+    border-radius: 0;
 }
 
 /* ----------------------- */
