@@ -36,6 +36,8 @@ a {
 hr {
     width: 50%;
     margin-bottom: 40px;
+    border-bottom: none;
+    color: #d8d8d8;
 }
 
 /* ------------ */
@@ -89,6 +91,29 @@ button:active {
     background: rgba(101, 207, 223, 0.1);
 }
 
+/* ----------------- */
+/* -- CSS FIGURES -- */
+/* ----------------- */
+
+.circle {
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+    border: 1px solid #70e1f5;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+    border: 1px solid #ffd194;
+    display: inline-block;
+    float: left;
+}
+
 /* ----------------------- */
 /* -- RESPONSIVE STYLES -- */
 /* ----------------------- */
@@ -100,5 +125,17 @@ button:active {
 
     h3 {
         font-size: 1.25em;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .circle,
+    .square {
+        float: none;
+        margin: 0;
+        width: 60px;
+        height: 60px;
     }
 }
