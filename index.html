@@ -8,12 +8,18 @@
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Libre+Franklin" rel="stylesheet">
-
-
+    <script src="https://use.fontawesome.com/7cacf6868e.js"></script>
+    <script src="https://code.jquery.com/jquery-3.0.0.slim.min.js"
+            integrity="sha256-Rf4BadfyCtsvHmO89BUZcbYvNNvZvOT08ALfEzvCsD0="
+            crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <div class="menu show" data-model>
+        <a href="www.github.com/guidobakkes"><i class="fa fa-github"></i> Github</a>
+    </div>
     <header>
+        <button class="x" data-open-modal><i class="fa fa-bars"></i></button>
         <h1>
             MOCK UPS
         </h1>
@@ -57,5 +63,10 @@
             </a>
         </div>
     </section>
+
+    <section class="modal"></section>
+
+    <script src="js/index.js"></script>
 </body>
+
 </html>
