@@ -1,7 +1,9 @@
 .container {
     width: 100%;
     height: 400px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
     border-bottom: 1px solid #e6e6e6;
     text-align: center;
     padding-top: 150px;
@@ -12,6 +14,26 @@
     margin: 0 auto;
     max-width: 1200px;
     height: 300px;
+}
+
+.text {
+    float: left;
+    width: 800px;
+}
+
+.image {
+
+}
+
+.point-hand {
+    width: 80px;
+    height: auto;
+}
+
+.freepik {
+    font-size: 5px;
+    text-decoration: none;
+    color: #a0a0a0;
 }
 
 @media (max-width: 768px) {
