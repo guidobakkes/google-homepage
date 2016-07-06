@@ -71,6 +71,7 @@ header {
 
 .text {
     margin-bottom: 80px;
+    padding-right: 60px;
 }
 
 button {
@@ -168,6 +169,7 @@ button:active {
 
     .text {
         text-align: center;
+        padding-right: 0;
     }
 
     .menu {
