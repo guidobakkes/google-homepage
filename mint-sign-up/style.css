@@ -1,5 +1,30 @@
 body {
     max-width: 810px;
     min-width: 810px;
-    margin: 0 auto;
+    margin: 60px auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mint-logo {
+    width: 13%;
+    height: 13%;
+}
+
+.form {
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px 45px;
+}
+
+.input-form {
+    display: block;
 }
