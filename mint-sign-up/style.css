@@ -1,3 +1,7 @@
+/* --------------------- */
+/* -- General Styling -- */
+/* --------------------- */
+
 body {
     max-width: 810px;
     min-width: 810px;
@@ -10,6 +14,20 @@ h2 {
     font-weight: 300;
 }
 
+h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+a {
+    color: inherit;
+}
+
+/* -------------------- */
+/* -- Header styling -- */
+/* -------------------- */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -20,20 +38,110 @@ header {
     height: 13%;
 }
 
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.login-items {
+    text-decoration: none;
+}
+
+.login-items:first-child {
+    padding-right: 15px;
+    border-right: 1px solid #d8d8d8;
+    font-weight: 600;
+}
+
+.login-items:last-child {
+    padding-left: 15px;
+    font-weight: 200;
+}
+
+/* ------------------ */
+/* -- Form styling -- */
+/* ------------------ */
+
 .form {
     box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.2);
     padding: 20px 30px 30px 45px;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-weight: 200;
+    font-size: 14px;
 }
 
 .input-form {
     display: block;
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
 
+.form-left {
+    padding-right: 100px;
+}
+
+.form-right {
+    border-left: 1px solid #d3d3d3;
+    padding-left: 30px;
+    margin-top: 20px;
 }
 
 .sidebar {
     background-color: #f8f8f8;
-    height: 100%;
+    height: 93%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px 20px 20px 20px;
+    color: #666;
+    width: 200px;
+}
+
+.sidebar ul {
+    font-size: 11px;
+    line-height: 14px;
+    padding-left: 15px;
+}
+
+.sidebar ul li {
+    margin-bottom: 12px;
+}
+
+.terms-of-use {
+    font-size: 12px;
+    color: #7d7f80;
+}
+
+.blue-link {
+    color: #45cae6;
+    text-decoration: none;
+}
+
+/* ------------------------------ */
+/* -- input and button styling -- */
+/* ------------------------------ */
+
+input[type="text"] {
+    box-sizing: border-box;
+    border: 1px solid #d8d8d8;
+    border-radius: 3px;
+    outline: none;
+    width: 320px;
+    padding: 8px;
+}
+
+input[type="checkbox"] {
+
+}
+
+button {
+    background: #45cae6;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
 }
