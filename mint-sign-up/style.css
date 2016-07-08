@@ -22,9 +22,18 @@ header {
 
 .form {
     box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.2);
-    padding: 30px 45px;
+    padding: 20px 30px 30px 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .input-form {
     display: block;
+
+}
+
+.sidebar {
+    background-color: #f8f8f8;
+    height: 100%;
 }
