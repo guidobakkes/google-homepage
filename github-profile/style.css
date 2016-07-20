@@ -1,6 +1,7 @@
 body {
     max-width: 1030px;
     margin: 0 auto;
+    color: #000;
 }
 
 .nav-bar {
@@ -12,12 +13,22 @@ body {
     justify-content: space-between;
 }
 
-.nav-item {
+.nav-left {
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
     display: -o-flex;
     display: flex;
-    -ms-align-items: center;
-    align-items: center;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+}
+
+.nav-right {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: flex-end;
+    align-items: flex-end;;
 }
